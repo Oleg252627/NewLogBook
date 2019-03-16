@@ -1,0 +1,14 @@
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\bin\Debug\netcoreapp2.2\NewLogBook.Entities.deps.json
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\bin\Debug\netcoreapp2.2\NewLogBook.Entities.dll
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\obj\Debug\netcoreapp2.2\NewLogBook.Entities.csprojAssemblyReference.cache
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\obj\Debug\netcoreapp2.2\NewLogBook.Entities.csproj.CoreCompileInputs.cache
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\obj\Debug\netcoreapp2.2\NewLogBook.Entities.AssemblyInfoInputs.cache
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\obj\Debug\netcoreapp2.2\NewLogBook.Entities.AssemblyInfo.cs
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\bin\Debug\netcoreapp2.2\NewLogBook.Entities.runtimeconfig.json
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\bin\Debug\netcoreapp2.2\NewLogBook.Entities.runtimeconfig.dev.json
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\bin\Debug\netcoreapp2.2\NewLogBook.Entities.pdb
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\bin\Debug\netcoreapp2.2\NewLogBook.Abstracrions.dll
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\bin\Debug\netcoreapp2.2\NewLogBook.Abstracrions.pdb
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\obj\Debug\netcoreapp2.2\NewLogBook.Entities.csproj.CopyComplete
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\obj\Debug\netcoreapp2.2\NewLogBook.Entities.dll
+E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Entities\obj\Debug\netcoreapp2.2\NewLogBook.Entities.pdb
