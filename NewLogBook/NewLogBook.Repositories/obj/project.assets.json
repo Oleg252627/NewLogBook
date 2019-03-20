@@ -991,6 +991,10 @@
       "NewLogBook.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "NewLogBook.AppContext": "1.0.0",
+          "NewLogBook.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/NewLogBook.Models.dll": {}
         },
@@ -3699,11 +3703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Repositories\\NewLogBook.Repositories.csproj",
+      "projectUniqueName": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Repositories\\NewLogBook.Repositories.csproj",
       "projectName": "NewLogBook.Repositories",
-      "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Repositories\\NewLogBook.Repositories.csproj",
+      "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Repositories\\NewLogBook.Repositories.csproj",
       "packagesPath": "C:\\Users\\Oleg\\.nuget\\packages\\",
-      "outputPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Repositories\\obj\\",
+      "outputPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3722,17 +3726,17 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj": {
-              "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj"
+            "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj": {
+              "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj"
             },
-            "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.AppContext\\NewLogBook.AppContext.csproj": {
-              "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.AppContext\\NewLogBook.AppContext.csproj"
+            "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.AppContext\\NewLogBook.AppContext.csproj": {
+              "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.AppContext\\NewLogBook.AppContext.csproj"
             },
-            "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Entities\\NewLogBook.Entities.csproj": {
-              "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Entities\\NewLogBook.Entities.csproj"
+            "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Entities\\NewLogBook.Entities.csproj": {
+              "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Entities\\NewLogBook.Entities.csproj"
             },
-            "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Models\\NewLogBook.Models.csproj": {
-              "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Models\\NewLogBook.Models.csproj"
+            "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Models\\NewLogBook.Models.csproj": {
+              "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Models\\NewLogBook.Models.csproj"
             }
           }
         }

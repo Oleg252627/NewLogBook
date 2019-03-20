@@ -4768,6 +4768,10 @@
       "NewLogBook.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "NewLogBook.AppContext": "1.0.0",
+          "NewLogBook.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/NewLogBook.Models.dll": {}
         },
@@ -13052,11 +13056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook\\NewLogBook.csproj",
+      "projectUniqueName": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook\\NewLogBook.csproj",
       "projectName": "NewLogBook",
-      "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook\\NewLogBook.csproj",
+      "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook\\NewLogBook.csproj",
       "packagesPath": "C:\\Users\\Oleg\\.nuget\\packages\\",
-      "outputPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook\\obj\\",
+      "outputPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13075,11 +13079,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.AppContext\\NewLogBook.AppContext.csproj": {
-              "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.AppContext\\NewLogBook.AppContext.csproj"
+            "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.AppContext\\NewLogBook.AppContext.csproj": {
+              "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.AppContext\\NewLogBook.AppContext.csproj"
             },
-            "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Repositories\\NewLogBook.Repositories.csproj": {
-              "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Repositories\\NewLogBook.Repositories.csproj"
+            "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Repositories\\NewLogBook.Repositories.csproj": {
+              "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Repositories\\NewLogBook.Repositories.csproj"
             }
           }
         }

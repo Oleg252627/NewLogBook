@@ -554,8 +554,21 @@
         }
       },
       "NewLogBook.Models/1.0.0": {
+        "dependencies": {
+          "NewLogBook.AppContext": "1.0.0",
+          "NewLogBook.Entities": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0.0"
+        },
         "runtime": {
           "NewLogBook.Models.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.ViewFeatures.Reference/2.2.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Mvc.ViewFeatures.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
         }
       }
     }
@@ -975,6 +988,11 @@
     },
     "NewLogBook.Models/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Mvc.ViewFeatures.Reference/2.2.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

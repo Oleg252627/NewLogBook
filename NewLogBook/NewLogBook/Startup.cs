@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using NewLogBook.AppContext;
 using NewLogBook.Entities;
 using NewLogBook.Models;
+using NewLogBook.Models.Ratings;
 using NewLogBook.Repositories;
 using NewLogBook.Repositories.interfaces;
 
@@ -39,6 +40,7 @@ namespace NewLogBook
             services.AddTransient<ISubjectRepository, SubjectRepository>();
             services.AddTransient<ITeacherRepository, TeacherRepository>();
             services.AddTransient<ITeacherSubjectRepository, TeacherSubjectRepository>();
+            services.AddTransient<RatingStudents>();
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.

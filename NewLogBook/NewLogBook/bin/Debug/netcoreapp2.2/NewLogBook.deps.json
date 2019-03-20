@@ -689,6 +689,10 @@
         }
       },
       "NewLogBook.Models/1.0.0": {
+        "dependencies": {
+          "NewLogBook.AppContext": "1.0.0",
+          "NewLogBook.Entities": "1.0.0"
+        },
         "runtime": {
           "NewLogBook.Models.dll": {}
         },

@@ -3641,11 +3641,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Entities\\NewLogBook.Entities.csproj",
+      "projectUniqueName": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Entities\\NewLogBook.Entities.csproj",
       "projectName": "NewLogBook.Entities",
-      "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Entities\\NewLogBook.Entities.csproj",
+      "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Entities\\NewLogBook.Entities.csproj",
       "packagesPath": "C:\\Users\\Oleg\\.nuget\\packages\\",
-      "outputPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Entities\\obj\\",
+      "outputPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3664,8 +3664,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj": {
-              "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj"
+            "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj": {
+              "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj"
             }
           }
         }

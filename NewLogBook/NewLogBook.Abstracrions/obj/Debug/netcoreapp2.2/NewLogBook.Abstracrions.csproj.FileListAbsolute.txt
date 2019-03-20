@@ -9,3 +9,14 @@ E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Abstracrions\bin\Debug\netcore
 E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Abstracrions\bin\Debug\netcoreapp2.2\NewLogBook.Abstracrions.pdb
 E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Abstracrions\obj\Debug\netcoreapp2.2\NewLogBook.Abstracrions.dll
 E:\proga_Visual\ASP_net_COR\NewLogBook\NewLogBook.Abstracrions\obj\Debug\netcoreapp2.2\NewLogBook.Abstracrions.pdb
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\bin\Debug\netcoreapp2.2\NewLogBook.Abstracrions.deps.json
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\bin\Debug\netcoreapp2.2\NewLogBook.Abstracrions.runtimeconfig.json
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\bin\Debug\netcoreapp2.2\NewLogBook.Abstracrions.runtimeconfig.dev.json
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\bin\Debug\netcoreapp2.2\NewLogBook.Abstracrions.dll
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\bin\Debug\netcoreapp2.2\NewLogBook.Abstracrions.pdb
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\obj\Debug\netcoreapp2.2\NewLogBook.Abstracrions.csprojAssemblyReference.cache
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\obj\Debug\netcoreapp2.2\NewLogBook.Abstracrions.csproj.CoreCompileInputs.cache
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\obj\Debug\netcoreapp2.2\NewLogBook.Abstracrions.AssemblyInfoInputs.cache
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\obj\Debug\netcoreapp2.2\NewLogBook.Abstracrions.AssemblyInfo.cs
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\obj\Debug\netcoreapp2.2\NewLogBook.Abstracrions.dll
+E:\git\NewLogBook\NewLogBook\NewLogBook.Abstracrions\obj\Debug\netcoreapp2.2\NewLogBook.Abstracrions.pdb

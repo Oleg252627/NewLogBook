@@ -3621,11 +3621,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj",
+      "projectUniqueName": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj",
       "projectName": "NewLogBook.Abstracrions",
-      "projectPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj",
+      "projectPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Abstracrions\\NewLogBook.Abstracrions.csproj",
       "packagesPath": "C:\\Users\\Oleg\\.nuget\\packages\\",
-      "outputPath": "E:\\proga_Visual\\ASP_net_COR\\NewLogBook\\NewLogBook.Abstracrions\\obj\\",
+      "outputPath": "E:\\git\\NewLogBook\\NewLogBook\\NewLogBook.Abstracrions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
