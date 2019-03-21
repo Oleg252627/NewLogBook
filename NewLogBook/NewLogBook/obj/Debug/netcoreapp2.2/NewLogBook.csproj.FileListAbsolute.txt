@@ -110,3 +110,4 @@ E:\git\NewLogBook\NewLogBook\NewLogBook\obj\Debug\netcoreapp2.2\Razor\Views\Subj
 E:\git\NewLogBook\NewLogBook\NewLogBook\obj\Debug\netcoreapp2.2\Razor\Views\Subject\Create.g.cshtml.cs
 E:\git\NewLogBook\NewLogBook\NewLogBook\obj\Debug\netcoreapp2.2\Razor\Views\Subject\Edit.g.cshtml.cs
 E:\git\NewLogBook\NewLogBook\NewLogBook\obj\Debug\netcoreapp2.2\Razor\Views\Subject\Details.g.cshtml.cs
+E:\git\NewLogBook\NewLogBook\NewLogBook\obj\Debug\netcoreapp2.2\Razor\Views\Mark\AddMark.g.cshtml.cs

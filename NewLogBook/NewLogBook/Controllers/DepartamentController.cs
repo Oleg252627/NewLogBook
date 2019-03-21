@@ -82,5 +82,15 @@ namespace NewLogBook.Controllers
 
             return View(departament);
         }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (!await departamentRepository.IsDeleteDepartament(id))
+            {
+                return NotFound();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

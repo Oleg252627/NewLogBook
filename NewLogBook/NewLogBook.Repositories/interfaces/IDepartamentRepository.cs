@@ -14,5 +14,6 @@ namespace NewLogBook.Repositories.interfaces
         Task<DepartamentModel> GetEditDepartament(int? id);
         Task<bool> EditDepartamentPost(DepartamentModel model);
         Task<Departament> DetailsDepartament(int? id);
+        Task<bool> IsDeleteDepartament(int? id);
     }
 }

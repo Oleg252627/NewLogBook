@@ -15,5 +15,6 @@ namespace NewLogBook.Repositories.interfaces
         Task<StudentModel> GetEditStudent(IGroupRepository groupRepository, int? id);
         Task<bool> EditStudentPost(StudentModel model);
         Task<Student> DetailsStudent(int? id);
+        Task<bool> IsDeleteStudent(int? id);
     }
 }

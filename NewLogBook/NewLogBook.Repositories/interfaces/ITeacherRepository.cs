@@ -16,5 +16,6 @@ namespace NewLogBook.Repositories.interfaces
         Task<TeacherModel> GetEditTeacher(int? id, IDepartamentRepository departamentRepository);
         Task<bool> EditTeacherPost(TeacherModel model);
         Task<Teacher> DetailsTeacher(int? id);
+        Task<bool> IsDeleteTeacher(int? id);
     }
 }

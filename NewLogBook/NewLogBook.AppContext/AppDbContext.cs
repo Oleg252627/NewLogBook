@@ -25,22 +25,22 @@ namespace NewLogBook.AppContext
         {
             builder.Entity<Faculty>().HasMany(z => z.Groups).WithOne();
             builder.Entity<Group>().HasOne(z => z.Faculty)
-                .WithMany(x => x.Groups).HasForeignKey(z => z.FacultyId);
+                .WithMany(x => x.Groups).HasForeignKey(z => z.FacultyId).OnDelete(DeleteBehavior.Cascade);
             builder.Entity<Student>().HasOne(z => z.Group).WithMany(x => x.Students)
-                .HasForeignKey(z => z.GroupId);
+                .HasForeignKey(z => z.GroupId).OnDelete(DeleteBehavior.Cascade);
             builder.Entity<Departament>().HasMany(z => z.Teachers).WithOne();
             builder.Entity<Mark>().HasOne(z => z.Student).WithMany(x => x.Marks)
-                .HasForeignKey(z => z.StudentId);
+                .HasForeignKey(z => z.StudentId).OnDelete(DeleteBehavior.Cascade);
             builder.Entity<Mark>().HasOne(z => z.TeacherSubject).WithMany(x => x.Marks)
-                .HasForeignKey(z => z.TeacherSubjectId);
+                .HasForeignKey(z => z.TeacherSubjectId).OnDelete(DeleteBehavior.Cascade);
             builder.Entity<Subject>().HasMany(z => z.TeachersSubjects).WithOne();
             builder.Entity<Teacher>().HasOne(z => z.Departament).WithMany(x => x.Teachers)
-                .HasForeignKey(z => z.DepartamentId);
+                .HasForeignKey(z => z.DepartamentId).OnDelete(DeleteBehavior.Cascade);
             builder.Entity<Teacher>().HasMany(z => z.TeacherSubjects).WithOne();
             builder.Entity<TeacherSubject>().HasOne(z => z.Teacher).WithMany(x => x.TeacherSubjects)
-                .HasForeignKey(z => z.TeacherId);
+                .HasForeignKey(z => z.TeacherId).OnDelete(DeleteBehavior.Cascade);
             builder.Entity<TeacherSubject>().HasOne(z => z.Subject).WithMany(x => x.TeachersSubjects)
-                .HasForeignKey(z => z.SubjectId);
+                .HasForeignKey(z => z.SubjectId).OnDelete(DeleteBehavior.Cascade);
             base.OnModelCreating(builder);
             builder.Entity<Faculty>().HasData(
                 new Faculty

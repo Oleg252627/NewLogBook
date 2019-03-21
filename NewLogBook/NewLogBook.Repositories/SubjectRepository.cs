@@ -87,5 +87,15 @@ namespace NewLogBook.Repositories
                 .FirstOrDefaultAsync(z => z.Id == id);
             return subject;
         }
+
+        public async Task<bool> IsDeleteSubject(int? id)
+        {
+            if (id == null)
+            {
+                return false;
+            }
+
+            return await DeleteItemAsync(id);
+        }
     }
 }

@@ -16,5 +16,6 @@ namespace NewLogBook.Repositories.interfaces
         Task<SubjectModel> EditSabject(int? id, ITeacherRepository teacherRepository);
         Task<bool> isEditSubjectPost(SubjectModel model, ITeacherSubjectRepository teacherSubject);
         Task<Subject> DetailsSubject(int? id);
+        Task<bool> IsDeleteSubject(int? id);
     }
 }

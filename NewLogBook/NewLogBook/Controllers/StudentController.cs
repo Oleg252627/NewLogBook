@@ -91,5 +91,15 @@ namespace NewLogBook.Controllers
 
             return View(student);
         }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (!await studentRepository.IsDeleteStudent(id))
+            {
+                return NotFound();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

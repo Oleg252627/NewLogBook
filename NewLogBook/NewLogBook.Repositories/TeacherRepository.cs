@@ -82,5 +82,15 @@ namespace NewLogBook.Repositories
             return await AllItems.Include(d => d.Departament).Include(t => t.TeacherSubjects)
                 .FirstOrDefaultAsync(z => z.Id == id);
         }
+
+        public async Task<bool> IsDeleteTeacher(int? id)
+        {
+            if (id == null)
+            {
+                return false;
+            }
+
+            return await DeleteItemAsync(id);
+        }
     }
 }

@@ -55,5 +55,15 @@ namespace NewLogBook.Repositories
             var departament = AllItems.Include(t => t.Teachers).FirstOrDefaultAsync(z => z.Id == id);
             return await departament;
         }
+
+        public async Task<bool> IsDeleteDepartament(int? id)
+        {
+            if (id == null)
+            {
+                return false;
+            }
+
+            return await DeleteItemAsync(id);
+        }
     }
 }

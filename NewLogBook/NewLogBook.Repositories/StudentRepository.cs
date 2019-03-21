@@ -68,9 +68,19 @@ namespace NewLogBook.Repositories
                 return null;
             }
 
-            var student = AllItems.Include(g => g.Group)
-                .Include(m => m.Marks).FirstOrDefaultAsync(z => z.Id == id);
-            return await student;
+            var student = await AllItems.Include(g => g.Group)
+                .Include(m => m.Marks).ThenInclude(z =>z.TeacherSubject).ThenInclude(x =>x.Subject).FirstOrDefaultAsync(z => z.Id == id);
+            return student;
+        }
+
+        public async Task<bool> IsDeleteStudent(int? id)
+        {
+            if (id == null)
+            {
+                return false;
+            }
+
+            return await DeleteItemAsync(id);
         }
     }
 }
