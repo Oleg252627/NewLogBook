@@ -20,10 +20,6 @@ namespace NewLogBook.Repositories
 
         public async Task<MarkModel> GetAddMark(int? id, IStudentRepository studentRepository ,ITeacherRepository teacherRepository, ITeacherSubjectRepository teacherSubject)
         {
-            if (id == null)
-            {
-                return null;
-            }
 
             var student = await studentRepository.GetItemAsync(id);
             if (student == null)

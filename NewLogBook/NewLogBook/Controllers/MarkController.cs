@@ -25,10 +25,14 @@ namespace NewLogBook.Controllers
         [HttpGet]
         public async Task<IActionResult> AddMark(int? id)
         {
+            if (id == null)
+            {
+                return NotFound();
+            }
             MarkModel model = await markRepository.GetAddMark(id, studentRepository, teacherRepository, teacherSubject);
             if (model == null)
             {
-                return NotFound();
+                return View("WarningMark");
             }
 
             return View(model);
