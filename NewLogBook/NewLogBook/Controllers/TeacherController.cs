@@ -13,11 +13,13 @@ namespace NewLogBook.Controllers
     {
         private ITeacherRepository teacherRepository;
         private IDepartamentRepository departamentRepository;
+
         public TeacherController(ITeacherRepository teacherRepository, IDepartamentRepository departamentRepository)
         {
             this.teacherRepository = teacherRepository;
             this.departamentRepository = departamentRepository;
         }
+
         public async Task<IActionResult> Index()
         {
             return View(await teacherRepository.GetTeacher());

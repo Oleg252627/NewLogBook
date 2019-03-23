@@ -19,7 +19,7 @@ namespace NewLogBook.Repositories
 
         public async Task<List<Teacher>> GetTeacher()
         {
-            return await AllItems.Include(d => d.Departament).ToListAsync();
+            return await AllItems.Include(d => d.Departament).Include(t => t.TeacherSubjects).ThenInclude(s =>s.Subject).ToListAsync();
         }
 
         public async Task<TeacherModel> GetCreateTeacher(IDepartamentRepository repository)
@@ -79,7 +79,7 @@ namespace NewLogBook.Repositories
                 return null;
             }
 
-            return await AllItems.Include(d => d.Departament).Include(t => t.TeacherSubjects)
+            return await AllItems.Include(d => d.Departament).Include(t => t.TeacherSubjects).ThenInclude(s => s.Subject)
                 .FirstOrDefaultAsync(z => z.Id == id);
         }
 
