@@ -18,7 +18,7 @@ namespace NewLogBook.AppContext
         public DbSet<TeacherSubject> TeachersSubjects { get; set; }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-            
+           
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
